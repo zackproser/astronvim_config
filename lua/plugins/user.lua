@@ -1,5 +1,9 @@
 ---@type LazySpec
 return {
+  -- Install the only correct color scheme --
+  { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
+
+  -- Enable smart splits with tmux-aware buffer navigation--
   { 'mrjones2014/smart-splits.nvim' },
 
   "andweeb/presence.nvim",

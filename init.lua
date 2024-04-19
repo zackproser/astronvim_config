@@ -17,3 +17,7 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- Set up colorscheme -- 
+vim.opt.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
